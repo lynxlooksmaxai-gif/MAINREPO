@@ -1,6 +1,6 @@
 import { supabase } from '@/lib/supabase';
 
-const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY'; // Replace with your key from aistudio.google.com/apikey
+const GEMINI_API_KEY = 'AIzaSyD2loGC1LGUgt0fRQaDOHj5tqYkAMYRTxI';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 export interface FaceScores {
